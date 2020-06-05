@@ -63,7 +63,7 @@
   CONFIG  EBTRB = OFF           ; Boot Block Table Read Protection bit (Boot block (000000-0007FFh) is not protected from table reads executed in other blocks)
 
 CBLOCK
-  variableAux
+  variableAux ;Defenicion de la variable
   variableCuenta
 ENDC
 
